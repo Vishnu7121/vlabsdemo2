@@ -25,7 +25,10 @@ function Defence() {
 
       const data = await response.json();
       console.log(data.destination_url);
+      /* eslint-disable no-unused-vars */
       const newTab = window.open(data.destination_url, '_blank');
+      /* eslint-enable no-unused-vars */
+
     } catch (error) {
       console.log(error);
     } finally {
