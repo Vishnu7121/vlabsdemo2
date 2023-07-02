@@ -22,7 +22,9 @@ function Attack() {
 
       const data = await response.json();
       console.log(data);
+      /* eslint-disable no-unused-vars */
       const newTab = window.open(data.destination_url, '_blank');
+      /* eslint-enable no-unused-vars */
       setTrigger(false);
       setAttacked(true);
       // newTab.focus();
