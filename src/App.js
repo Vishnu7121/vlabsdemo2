@@ -1,7 +1,6 @@
 import React from 'react';
-import { Container, Row, Card, Button } from 'react-bootstrap';
+import { Container} from 'react-bootstrap';
 import './App.css';
-import Timer from './Components/timer';
 import Dashboard from './Components/Dashboard';
 import { Routes, Route } from 'react-router';
 import Lab from './Components/Lab';
